@@ -1,7 +1,7 @@
 # Easy Math Series
 
 <p align="center">
-	🐍  ✖︎ Arithmetic operation in BigDecimal made easier
+        ✖︎ Arithmetic operation in BigDecimal made easier
 </p>
 
 <p align="center">
