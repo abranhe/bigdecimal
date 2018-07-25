@@ -39,8 +39,8 @@ public class EMBigDecimal {
     /**
      * Add two BigDecimal Numbers
      * 
-     * @param x 
-     * @param y
+     * @param x bigdecimal number
+     * @param y bigdecimal number
      * @return addition of x plus y
      */
     public static BigDecimal add(BigDecimal x, BigDecimal y) {
@@ -50,8 +50,8 @@ public class EMBigDecimal {
     /**
      * Subtract two BigDecimal Numbers
      * 
-     * @param x
-     * @param y
+     * @param x bigdecimal number
+     * @param y bigdecimal number
      * @return subtraction of x minus y
      */
     public static BigDecimal subtract(BigDecimal x, BigDecimal y) {
@@ -61,8 +61,8 @@ public class EMBigDecimal {
     /**
      * Multiply two BigDecimal Numbers
      * 
-     * @param x
-     * @param y
+     * @param x bigdecimal number
+     * @param y bigdecimal number
      * @return multiplication of x times y
      */
     public static BigDecimal multiply(BigDecimal x, BigDecimal y) {
@@ -72,8 +72,8 @@ public class EMBigDecimal {
     /**
      * Divide two BigDecimal Numbers
      * 
-     * @param x
-     * @param y
+     * @param x bigdecimal number
+     * @param y bigdecimal number
      * @return division between x and y
      */
     public static BigDecimal divide(BigDecimal x, BigDecimal y) {
