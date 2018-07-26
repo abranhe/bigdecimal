@@ -9,9 +9,6 @@ jdk:
   - openjdk10
   - openjdk11
 
-before_install:
-  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
-
 script:
   - mvn test -B
 
