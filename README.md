@@ -6,8 +6,8 @@
 </p>
 
 <p align="center">
-  <a href="#"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/bigdecimal/badge.svg"></a>
-  <a href="#"><img src="#"></a>
+  <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Cbigdecimal%7C1.0.1%7Cjar"><img src="https://img.shields.io/badge/maven--central-1.0.1-brightgreen.svg"></a><a href="https://www.javadoc.io/doc/com.abranhe/bigdecimal/1.0.0">
+	<img src="https://img.shields.io/badge/javadoc-1.0.1-blue.svg"></a>
   <a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
 	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
