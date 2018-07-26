@@ -1,13 +1,8 @@
 language: java
 
 jdk:
-  - openjdk6
   - openjdk7
   - oraclejdk8
-  - oraclejdk10
-  - oraclejdk-ea
-  - openjdk10
-  - openjdk11
 
 notifications:
   # Email notifications are disabled to not annoy anybody.
