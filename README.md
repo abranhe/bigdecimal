@@ -1,4 +1,8 @@
 <p align="center">
+
+        <img src="https://cdn.abraham.gq/projects/bigdecimal/logo.svg">
+        <br>
+        <br>
         ✖︎ Arithmetic operation in BigDecimal made easier
 </p>
 
@@ -18,22 +22,43 @@
 - Clean and focused
 - Actively maintained
 
-# Adding Dependency
+# Dependency Information
+
+Download the [latest version JAR](https://github.com/abranhe/bigdecimal/releases/latest) to include it in your project
+
+## Maven
 
 ```xml
 <dependency>
         <groupId>com.abranhe.bigdecimal</groupId>
         <artifactId>bigdecimal</artifactId>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
 </dependency>
 ```
+## Gradle/Grails
 
-# Adding Library
+```
+compile 'com.abranhe:bigdecimal:1.0.1'
+```
+## Grape
+
+```
+@Grapes(
+    @Grab(group='com.abranhe', module='bigdecimal', version='1.0.1')
+)
+```
+
+## Ivy
+
+```xml
+<dependency org="com.abranhe" name="bigdecimal" rev="1.0.1"/>
+```
+
+# Using on your project
 
 ```java
 import com.abranhe.bigdecimal.Operations;
 ```
-
 
 ## Usage
 
