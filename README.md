@@ -1,5 +1,4 @@
 <p align="center">
-
         <img src="https://cdn.abraham.gq/projects/bigdecimal/logo.svg">
         <br>
         <br>
