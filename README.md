@@ -1,53 +1,179 @@
-# Easy Math Series
-
 <p align="center">
         ✖︎ Arithmetic operation in BigDecimal made easier
 </p>
 
 <p align="center">
-	<!-- <a href="https://maven-badges.herokuapp.com/maven-central/com.abranhe.easymath/EasyMathBigDecimal/badge.svg"><img src="#"></a> -->
-        <a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
+  <a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
+  <!-- <a href="https://maven-badges.herokuapp.com/maven-central/com.abranhe.easymath/EasyMathBigDecimal/badge.svg"><img src="#"></a> -->
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
 	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/decamelize/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/decamelize.svg" /></a>
-  <a href="https://travis-ci.org/abranhe/decamelize"><img src="https://img.shields.io/travis/abranhe/decamelize.svg?logo=travis" /></a>
+	<a href="https://github.com/abranhe/bigdecimal/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/bigdecimal.svg" /></a>
+  <a href="https://travis-ci.org/abranhe/bigdecimal"><img src="https://img.shields.io/travis/abranhe/bigdecimal.svg?logo=travis" /></a>
 </p>
-
-
-
-# Adding to your project
-
-```xml
-<dependency>
-        <groupId>com.abranhe</groupId>
-        <artifactId>EasyMathBigDecimal</artifactId>
-        <version>0.0.1</version>
-</dependency>
-```
 
 # Why?
 
-- Arithmetic operation in BigDecimal made easier
+- No big deal working with **BigDecimal** operations
 - Clean and focused
 - Actively maintained
 
+# Adding Dependency
+
+```xml
+<dependency>
+        <groupId>com.abranhe.bigdecimal</groupId>
+        <artifactId>bigdecimal</artifactId>
+        <version>1.0.0</version>
+</dependency>
+```
+
+# Adding Library
+
+```java
+import com.abranhe.bigdecimal.Operations;
+```
+
+
 ## Usage
+
+> Example 1
+
+```java
+import com.abranhe.bigdecimal.Operations;
+import java.math.BigDecimal;
+
+public static void main(String[] args){
+
+        BigDecimal x = new BigDecimal("124567890.0987654321");
+        BigDecimal y = new BigDecimal("987654321.123456789");
+
+        System.out.println(Operations.add(x, y));
+        //=> 1112222211.2222222211
+}
+```
+
+> Example 2
 
 ```java
 import java.math.BigDecimal;
-import com.abranhe.easymath.EMBigDecimal;
 
 public static void main(String[] args){
-        
-        BigDecimal bd1 = new BigDecimal("124567890.0987654321");
-        BigDecimal add = EMBigDecimal.add(bd1, bd2);
-        //=> 1112222211.2222222211
 
-        BigDecimal bd2 = new BigDecimal("987654321.123456789");
-        BigDecimal sub = EMBigDecimal.subtract(bd1, bd2);
-        //=> 863086431.0246913569
- }
+        BigDecimal x = new BigDecimal("124567890.0987654321");
+        BigDecimal y = new BigDecimal("987654321.123456789");
+
+        Operations o = new Operations();
+        System.out.println(com.abranhe.bigdecimal.Operations.divide(x, y));
+        //=> 0.12613
+}
 ```
+> Example 3
+
+```java
+import com.abranhe.bigdecimal.Operations.divide;
+import java.math.RoundingMode;
+import java.math.BigDecimal;
+
+public static void main(String[] args){
+
+        BigDecimal x = new BigDecimal("124567890.0987654321");
+        BigDecimal y = new BigDecimal("987654321.123456789");
+
+        System.out.println(divide(x, y, 9, RoundingMode.FLOOR));
+        //=> 0.126124988
+}
+```
+
+# API
+
+### Addition
+
+> Add two BigDecimal numbers
+
+```java
+public static BigDecimal add(BigDecimal x, BigDecimal y);
+```
+
+**Parameters:**
+  - **x** - Big decimal number
+  - **y** - Big decimal number
+
+**Returns:**
+
+Addition of `x` plus `y`
+
+### Subtraction
+
+> Add two BigDecimal numbers
+
+```java
+public static BigDecimal subtract(BigDecimal x, BigDecimal y);
+```
+
+**Parameters:**
+  - **x** - Big decimal number
+  - **y** - Big decimal number
+
+**Returns:**
+
+Subtraction of `x` minus `y`
+
+### Multiplication
+
+> Multiplication between two BigDecimal numbers
+
+```java
+public static BigDecimal multiply(BigDecimal x, BigDecimal y);
+```
+
+**Parameters:**
+  - **x** - Big decimal number
+  - **y** - Big decimal number
+
+**Returns:**
+
+Multiplication of `x` times `y`
+
+### Division
+
+> Division between two BigDecimal numbers
+
+```java
+public static BigDecimal divide(BigDecimal x, BigDecimal y, int scale, RoundingMode roundingMode);
+```
+
+**Parameters:**
+  - **x** - Big decimal number
+  - **y** - Big decimal number
+  - **scale** - Scale of the BigDecimal quotient to be returned
+  - **roundingMode** - Rounding mode to apply
+
+**Returns:**
+
+Division of `x` by `y`
+
+### Default Division
+
+> Division between two BigDecimal numbers
+
+```java
+public static BigDecimal divide(BigDecimal x, BigDecimal y);
+```
+
+**Parameters:**
+
+  - **x** - Big decimal number
+  - **y** - Big decimal number
+
+**Default**
+
+  - ~~**scale**~~ - `5`
+  - ~~**roundingMode**~~ - `CEILING`
+
+**Returns:**
+
+Division of `x` by `y`
+
 
 # Team
 
@@ -58,4 +184,4 @@ public static void main(String[] args){
 
 # License
 
-[MIT](https://github.com/abranhe/EasyMath-BigDecimal/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/19cah/)
+[MIT](https://github.com/abranhe/bigdecimal/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
