@@ -13,10 +13,6 @@ script:
 after_success:
   - curl -s https://raw.githubusercontent.com/19cah/hack/master/travis/success | bash -s
 
-cache:
-    directories:
-        - ~/.m2/repository
-
 branches:
   only:
     - master

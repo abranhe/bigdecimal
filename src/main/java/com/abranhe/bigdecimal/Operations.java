@@ -86,15 +86,10 @@ public class Operations {
     /**
      * Default division between two BigDecimal numbers
      *  
-     * <table border>
-     *  <th align=center colspan=3>Default Values</th>
-     *
-     * <tr valign=top>
-     * <th align=left>Parameter</th> <th>Description</th><th>Default</th>
-     * <tr align=left><td>Source</td>  <td>Scale of the BigDecimal quotient to be returned</td>  <td>5</td>
-     * <tr align=left><td>{@link java.math.RoundingMode}</td>  <td>Rounding mode to apply</td>  <td>CEILING</td>
-     * </table>
+     * <b>Default Values</b>
      * 
+     * Source: 5
+     * {@link java.math.RoundingMode}: CEILING
      * 
      * @param x Big decimal number
      * @param y Big decimal number
