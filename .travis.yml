@@ -4,6 +4,14 @@ jdk:
   - openjdk7
   - oraclejdk8
 
+notifications:
+  # Email notifications are disabled to not annoy anybody.
+  email: false
+
+before_install:
+    - echo $GPG_SECRET_KEYS | base64 --decode | $GPG_EXECUTABLE --import
+    - echo $GPG_OWNERTRUST | base64 --decode | $GPG_EXECUTABLE --import-ownertrust
+    
 install:
     mvn --settings .maven.xml install -DskipTests=true -Dgpg.skip -Dmaven.javadoc.skip=true -B -V
 
@@ -12,10 +20,6 @@ script:
 
 after_success:
   - curl -s https://raw.githubusercontent.com/19cah/hack/master/travis/success | bash -s
-
-notifications:
-  # Email notifications are disabled to not annoy anybody.
-  email: false
 
 branches:
   only:
