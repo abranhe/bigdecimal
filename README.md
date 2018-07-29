@@ -15,6 +15,8 @@
   <a href="https://travis-ci.org/abranhe/bigdecimal"><img src="https://img.shields.io/travis/abranhe/bigdecimal.svg?logo=travis" /></a>
 </p>
 
+See **Big Decimal** [wiki](https://wiki.github.com/abranhe/bigdecimal)
+
 # Why?
 
 - No big deal working with **BigDecimal** operations
