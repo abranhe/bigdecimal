@@ -8,7 +8,7 @@
         <br>
 	<br>
         <br>
-        ✖︎ Arithmetic operation in BigDecimal made easier
+	<i>✖︎ Arithmetic operations in <b>BigDecimal</b> made easier</i>
 </p>
 
 <p align="center">
