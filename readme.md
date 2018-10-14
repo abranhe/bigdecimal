@@ -1,12 +1,18 @@
 <p align="center">
+	<br>
+        <br>
+	<br>
+        <br>
         <img src="https://cdn.abraham.gq/projects/bigdecimal/logo.svg">
         <br>
         <br>
-        ✖︎ Arithmetic operation in BigDecimal made easier
+	<br>
+        <br>
+	<i>✖︎ Arithmetic operations in <b>BigDecimal</b> made easier</i>
 </p>
 
 <p align="center">
-  <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Cbigdecimal%7C1.0.1%7Cjar"><img src="https://img.shields.io/badge/maven--central-1.0.1-brightgreen.svg"></a><a href="https://www.javadoc.io/doc/com.abranhe/bigdecimal/1.0.0">
+  <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Cbigdecimal%7C1.0.1%7Cjar"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/bigdecimal/badge.svg"></a><a href="https://www.javadoc.io/doc/com.abranhe/bigdecimal/1.0.0">
 	<img src="https://img.shields.io/badge/javadoc-1.0.1-blue.svg"></a>
   <a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
 	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
@@ -204,11 +210,11 @@ Division of `x` by `y`
 
 # Team
 
-|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50&v=4)](https://abranhe.com)|
+|[![Carlos Abraham Logo](https://avatars3.githubusercontent.com/u/21347264?s=50)](https://abranhe.com)|
 | :-: |
 | [Carlos Abraham](https://github.com/abranhe) |
 
 
 # License
 
-[MIT](https://github.com/abranhe/bigdecimal/blob/master/LICENSE) License © [Carlos Abraham](https://github.com/abranhe/)
+[MIT](https://github.com/abranhe/bigdecimal/blob/master/license) License © [Carlos Abraham](https://github.com/abranhe/)
