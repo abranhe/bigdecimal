@@ -11,7 +11,7 @@ script:
   - mvn test -B
 
 after_success:
-  - curl -s https://raw.githubusercontent.com/19cah/hack/master/travis/success | bash -s
+  - curl -s https://raw.githubusercontent.com/abranhe/hack/master/travis/success | bash -s
 
 branches:
   only:
