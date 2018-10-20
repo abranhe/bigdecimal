@@ -3,7 +3,7 @@
         <br>
 	<br>
         <br>
-        <img src="https://cdn.abraham.gq/projects/bigdecimal/logo.svg">
+        <img src="https://cdn.abranhe.com/projects/bigdecimal/logo.svg">
         <br>
         <br>
 	<br>
@@ -15,9 +15,9 @@
   <a href="https://search.maven.org/#artifactdetails%7Ccom.abranhe%7Cbigdecimal%7C1.0.1%7Cjar"><img src="https://maven-badges.herokuapp.com/maven-central/com.abranhe/bigdecimal/badge.svg"></a><a href="https://www.javadoc.io/doc/com.abranhe/bigdecimal/1.0.0">
 	<img src="https://img.shields.io/badge/javadoc-1.0.1-blue.svg"></a>
   <a href="https://github.com/abranhe"><img src="https://abranhe.com/badge.svg"></a>
-	<a href="https://cash.me/$abranhe"><img src="https://cdn.abraham.gq/badges/cash-me.svg"></a>
-	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abraham.gq/badges/patreon.svg" /></a>
-	<a href="https://github.com/abranhe/bigdecimal/blob/master/LICENSE"><img src="https://img.shields.io/github/license/abranhe/bigdecimal.svg" /></a>
+	<a href="https://cash.me/$abranhe"><img src="https://cdn.abranhe.com/badges/cash-me.svg"></a>
+	<a href="https://www.patreon.com/abranhe"><img src="https://cdn.abranhe.com/badges/patreon.svg" /></a>
+	<a href="https://github.com/abranhe/bigdecimal/blob/master/license"><img src="https://img.shields.io/github/license/abranhe/bigdecimal.svg" /></a>
   <a href="https://travis-ci.org/abranhe/bigdecimal"><img src="https://img.shields.io/travis/abranhe/bigdecimal.svg?logo=travis" /></a>
 </p>
 
