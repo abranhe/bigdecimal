@@ -69,7 +69,7 @@ import com.abranhe.bigdecimal.Operations;
 
 ## Usage
 
-> Example 1
+*Example 1*
 
 ```java
 import com.abranhe.bigdecimal.Operations;
@@ -85,7 +85,7 @@ public static void main(String[] args){
 }
 ```
 
-> Example 2
+*Example 2*
 
 ```java
 import java.math.BigDecimal;
@@ -100,7 +100,7 @@ public static void main(String[] args){
         //=> 0.12613
 }
 ```
-> Example 3
+*Example 3*
 
 ```java
 import com.abranhe.bigdecimal.Operations.divide;
